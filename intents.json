@@ -65,7 +65,7 @@
       "who designed you"
    ],
    "responses": [
-      "College students"
+      "I'm created by students from SMKN 4 Malang, Achmad Royhan Kamil and Muhammad Daanii A"
    ],
    "context_set": ""
 },
@@ -97,26 +97,26 @@
  {
    "tag": "hours",
    "patterns": [
-      "timing of college",
-      "what is college timing",
+      "timing of school",
+      "what is school timing",
       "working days",
       "when are you guys open",
       "what are your hours",
       "hours of operation",
-      "when is the college open",
-      "college timing",
-      "what about college timing",
-      "is college open on saturday",
-      "tell something about college timing",
-      "what is the college  hours",
-      "when should i come to college",
-      "when should i attend college",
-      "what is my college time",
-      "college timing",
-      "timing college"
+      "when is the school open",
+      "school timing",
+      "what about school timing",
+      "is school open on saturday",
+      "tell something about school timing",
+      "what is the school  hours",
+      "when should i come to school",
+      "when should i attend school",
+      "what is my school time",
+      "school timing",
+      "timing school"
    ],
    "responses": [
-      "College is open 8am-5pm Monday-Saturday!"
+      "For students who are still attending school, learning hours start from 7:00-15:00.!"
    ],
    "context_set": ""
 },
@@ -125,13 +125,13 @@
    "patterns": [
       "more info",
       "contact info",
-      "how to contact college",
-      "college telephone number",
-      "college number",
+      "how to contact School",
+      "School telephone number",
+      "School number",
       "What is your contact no",
       "Contact number?",
       "how to call you",
-      "College phone no?",
+      "School phone no?",
       "how can i contact you",
       "Can i get your phone number",
       "how can i call you",
