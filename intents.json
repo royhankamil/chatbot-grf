@@ -87,9 +87,9 @@
       "what are you"
    ],
    "responses": [
-      "You can call me Mind Reader.",
-      "I'm Mind Reader",
-      "I am a Chatbot.",
+      "You can call me Graphis.",
+      "I'm Graphis",
+      "I am Graphis.",
       "I am your helper"
    ],
    "context_set": ""
@@ -145,38 +145,38 @@
    "context_set": ""
 },
  {
-   "tag": "course",
+   "tag": "Majors",
    "patterns": [
-      "list of courses",
-      "list of courses offered",
-      "list of courses offered in",
-      "what are the courses offered in your college?",
-      "courses?",
-      "courses offered",
-      "courses offered in (your univrsity(UNI) name)",
-      "courses you offer",
-      "branches?",
-      "courses available at UNI?",
-      "branches available at your college?",
-      "what are the courses in UNI?",
-      "what are branches in UNI?",
-      "what are courses in UNI?",
-      "branches available in UNI?",
-      "can you tell me the courses available in UNI?",
-      "can you tell me the branches available in UNI?",
-      "computer engineering?",
-      "computer",
-      "Computer engineering?",
-      "it",
+      "list of majors",
+      "list of majors offered",
+      "list of majors offered in",
+      "what majors are offered at your school?",
+      "majors?",
+      "majors offered",
+      "majors offered in SMKN 4 Malang",
+      "majors you offer",
+      "departments?",
+      "majors available at school?",
+      "departments available at your school?",
+      "what are the majors in school?",
+      "what are departments in school?",
+      "what are majors in school?",
+      "departments available in school?",
+      "can you tell me the majors available in School?",
+      "can you tell me the departments available in School?",
+      "computer science?",
       "IT",
       "Information Technology",
-      "AI/Ml",
-      "Mechanical engineering",
-      "Chemical engineering",
-      "Civil engineering"
+      "AI/ML",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Civil Engineering"
    ],
    "responses": [
-      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+      "Our school offers majors in Software Engineering, Animation, Mechatronics, Computer and Network Engineering, Logistics, Hospitality Management, Graphic Design, and Visual Communication Design.",
+      "At our school, students can choose from majors such as Software Engineering, Animation, Mechatronics, Computer and Network Engineering, Logistics, Hospitality Management, Graphic Design, and Visual Communication Design.",
+      "The majors available at our school include Software Engineering, Animation, Mechatronics, Computer and Network Engineering, Logistics, Hospitality Management, Graphic Design, and Visual Communication Design.",
+      "Students enrolled at our school have the opportunity to pursue majors in Software Engineering, Animation, Mechatronics, Computer and Network Engineering, Logistics, Hospitality Management, Graphic Design, and Visual Communication Design."
    ],
    "context_set": ""
 },
@@ -186,7 +186,7 @@
       "information about fee",
       "information on fee",
       "tell me the fee",
-      "college fee",
+      "school fee",
       "fee per semester",
       "what is the fee of each semester",
       "what is the fees of each year",
@@ -208,30 +208,33 @@
       "fees for non-Ac room for boys"
    ],
    "responses": [
-      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      "There is no fees"
    ],
    "context_set": ""
 },
  {
    "tag": "location",
    "patterns": [
-      "where is the college located",
-      "college is located at",
-      "where is college",
-      "where is college located",
-      "address of college",
-      "how to reach college",
-      "college location",
-      "college address",
-      "wheres the college",
-      "how can I reach college",
-      "whats is the college address",
-      "what is the address of college",
+      "where is the school located",
+      "school is located at",
+      "where is school",
+      "where is school located",
+      "address of school",
+      "how to reach school",
+      "school location",
+      "school address",
+      "wheres the school",
+      "how can I reach school",
+      "whats is the school address",
+      "what is the address of school",
       "address",
       "location"
    ],
    "responses": [
-      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      "The school is located at Jl. Tanimbar No.22, Kasin, Kec. Klojen, Kota Malang, Jawa Timur 65117. You can find it on [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+      "You can find the school at Jl. Tanimbar No.22, Kasin, Kec. Klojen, Kota Malang, East Java 65117. Here's the [Google Maps link](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+      "Our school's address is Jl. Tanimbar No.22, Kasin, Klojen District, Malang City, East Java 65117. Check it out on [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+      "The location of our school is Jl. Tanimbar No.22, Kasin, Klojen, Malang, East Java 65117. You can see the location on [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7)."
    ],
    "context_set": ""
 },
