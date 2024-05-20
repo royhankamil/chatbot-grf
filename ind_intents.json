@@ -1,0 +1,808 @@
+{
+    "intents":[
+       {
+          "tag": "salam",
+          "patterns": [
+             "Hai",
+             "bro",
+             "Ada orang di sana?",
+             "Halo",
+             "Selamat pagi",
+             "Ada apa",
+             "hei",
+             "apa kabar"
+          ],
+          "responses": [
+             "Halo!",
+             "Senang melihatmu lagi!",
+             "Hai, bagaimana saya bisa membantu?",
+             "Halo, senang berjumpa dengan anda lagi",
+             "Hai! Bagaimana saya bisa membantu Anda hari ini?"
+          ],
+          "context_set": [""]
+       },
+       {
+          "tag": "selamat_tinggal",
+          "patterns": [
+             "dadah",
+             "sampai jumpa",
+             "selamat tinggal",
+             "Sampai nanti",
+             "Selamat tinggal",
+             "Saya pergi",
+             "Bye",
+             "Semoga harimu menyenangkan",
+             "bicara nanti",
+             "sampai nanti",
+             "aku harus pergi",
+             "harus pergi"
+          ],
+          "responses": [
+             "Sedih melihatmu pergi :(",
+             "Bicara nanti",
+             "Selamat tinggal!",
+             "Kembali lagi ya",
+             "Selamat berjumpa di lain waktu"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "pembuat",
+          "patterns": [
+             "siapa pengembangmu",
+             "siapa pembuatmu",
+             "siapa yang membuatmu",
+             "siapa yang mengembangmu",
+             "pengembang",
+             "pembuat",
+             "kamu dibuat oleh siapa",
+             "pengembangmu",
+             "pembuatmu",
+             "siapa yang mendesainmu",
+             "siapa yang mencipakanmu"
+          ],
+          "responses": [
+             "Saya dibuat oleh siswa dari SMKN 4 Malang, Achmad Royhan Kamil sebagai data scientist dan Muhammad Daanii A"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "nama",
+          "patterns": [
+             "nama",
+             "namamu",
+             "apakah kamu punya nama",
+             "kamu dipanggil apa",
+             "apa namamu",
+             "bagaimana saya harus memanggilmu",
+             "siapa namamu?",
+             "apa kamu",
+             "siapa kamu",
+             "siapa ini",
+             "dengan siapa saya mengobrol",
+             "siapa yang saya ajak bicara",
+             "apa kamu"
+          ],
+          "responses": [
+             "Kamu bisa memanggilku Graphis.",
+             "Saya Graphis",
+             "Saya adalah Graphis.",
+             "Graphis adalah nama saya"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "jam",
+          "patterns": [
+             "jam sekolah",
+             "kapan jam sekolah",
+             "hari kerja",
+             "kapan kalian buka",
+             "apa jam operasional kalian",
+             "jam operasi",
+             "kapan sekolah buka",
+             "jam sekolah",
+             "bagaimana jam sekolah",
+             "apakah sekolah buka pada hari sabtu",
+             "ceritakan tentang jam sekolah",
+             "berapa jam sekolah",
+             "kapan saya harus datang ke sekolah",
+             "kapan saya harus ke sekolah",
+             "apa jam sekolah saya",
+             "jam sekolah",
+             "waktu sekolah"
+          ],
+          "responses": [
+             "Untuk siswa yang masih bersekolah, jam belajar dimulai dari 7:00-15:00."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "nomor",
+          "patterns": [
+             "info lebih lanjut",
+             "info kontak",
+             "bagaimana cara menghubungi sekolah",
+             "nomor telepon sekolah",
+             "nomor sekolah",
+             "berapa nomor kontak kalian",
+             "nomor kontak?",
+             "bagaimana cara meneleponmu",
+             "nomor telepon sekolah?",
+             "bagaimana cara menghubungi kalian",
+             "bisakah saya mendapatkan nomor telepon kalian",
+             "bagaimana saya bisa meneleponmu",
+             "nomor telepon",
+             "nomor telepon",
+             "hubungi"
+          ],
+          "responses": [
+             "Anda dapat menghubungi di: NOMOR"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "jurusan",
+          "patterns": [
+             "daftar jurusan",
+             "daftar jurusan yang ditawarkan",
+             "daftar jurusan yang ditawarkan di",
+             "jurusan apa yang ditawarkan di sekolahmu?",
+             "jurusan?",
+             "jurusan yang ditawarkan",
+             "jurusan yang ditawarkan di SMKN 4 Malang",
+             "jurusan yang kalian tawarkan",
+             "departemen?",
+             "jurusan yang tersedia di sekolah?",
+             "departemen yang tersedia di sekolah?",
+             "apa saja jurusan di sekolah?",
+             "apa saja departemen di sekolah?",
+             "apa saja jurusan di sekolah?",
+             "departemen yang tersedia di sekolah?",
+             "bisakah kamu memberitahu saya jurusan yang tersedia di sekolah?",
+             "bisakah kamu memberitahu saya departemen yang tersedia di sekolah?",
+             "ilmu komputer?",
+             "TI",
+             "Teknologi Informasi",
+             "AI/ML",
+             "Teknik Mesin",
+             "Teknik Kimia",
+             "Teknik Sipil"
+          ],
+          "responses": [
+             "Sekolah kami menawarkan jurusan Rekayasa Perangkat Lunak, Animasi, Mekatronika, Teknik Komputer dan Jaringan, Logistik, Manajemen Perhotelan, Desain Grafis, dan Desain Komunikasi Visual.",
+             "Di sekolah kami, siswa dapat memilih dari jurusan seperti Rekayasa Perangkat Lunak, Animasi, Mekatronika, Teknik Komputer dan Jaringan, Logistik, Manajemen Perhotelan, Desain Grafis, dan Desain Komunikasi Visual.",
+             "Jurusan yang tersedia di sekolah kami meliputi Rekayasa Perangkat Lunak, Animasi, Mekatronika, Teknik Komputer dan Jaringan, Logistik, Manajemen Perhotelan, Desain Grafis, dan Desain Komunikasi Visual.",
+             "Siswa yang terdaftar di sekolah kami memiliki kesempatan untuk mengejar jurusan Rekayasa Perangkat Lunak, Animasi, Mekatronika, Teknik Komputer dan Jaringan, Logistik, Manajemen Perhotelan, Desain Grafis, dan Desain Komunikasi Visual."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "biaya",
+          "patterns": [
+             "informasi tentang biaya",
+             "informasi mengenai biaya",
+             "beritahu saya tentang biaya",
+             "biaya sekolah",
+             "biaya per semester",
+             "berapa biaya per semester",
+             "berapa biaya per tahun",
+             "berapa biaya",
+             "berapa biayanya",
+             "berapa biayanya",
+             "biaya untuk tahun pertama",
+             "biaya",
+             "tentang biaya",
+             "beritahu saya tentang biaya",
+             "berapa biayanya",
+             "apakah sekolah ini berbayar",
+             "bayar masuk"
+          ],
+          "responses": [
+             "Sekolah ini hanya akan membayar seragam saja selain itu akan ditanggung oleh pemerintah"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "lokasi",
+          "patterns": [
+             "di mana sekolah berada",
+             "sekolah terletak di",
+             "di mana sekolah",
+             "di mana sekolah berada",
+             "alamat sekolah",
+             "bagaimana cara menuju sekolah",
+             "lokasi sekolah",
+             "alamat sekolah",
+             "di mana sekolah",
+             "bagaimana saya bisa mencapai sekolah",
+             "apa alamat sekolah",
+             "apa alamat sekolah",
+             "alamat",
+             "lokasi"
+          ],
+          "responses": [
+             "Sekolah ini terletak di Jl. Tanimbar No.22, Kasin, Kec. Klojen, Kota Malang, Jawa Timur 65117. Anda dapat menemukannya di [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+             "Anda dapat menemukan sekolah di Jl. Tanimbar No.22, Kasin, Kec. Klojen, Kota Malang, Jawa Timur 65117. Berikut adalah [tautan Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+             "Alamat sekolah kami adalah Jl. Tanimbar No.22, Kasin, Kecamatan Klojen, Kota Malang, Jawa Timur 65117. Cek di [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7).",
+             "Lokasi sekolah kami adalah Jl. Tanimbar No.22, Kasin, Klojen, Malang, Jawa Timur 65117. Anda dapat melihat lokasinya di [Google Maps](https://maps.app.goo.gl/7VcwBMZaJiVrcdKC7)."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "masuk",
+          "patterns": [
+             "cara mendaftar",
+             "bagaimana cara mendaftar",
+             "proses pendaftaran",
+             "apa proses pendaftaran",
+             "pendaftaran",
+             "prosedur pendaftaran",
+             "apa proses pendaftaran",
+             "bagaimana cara mendaftar",
+             "langkah untuk mendaftar",
+             "formulir pendaftaran",
+             "di mana saya bisa mendapatkan formulir pendaftaran",
+             "bagaimana cara mendaftar",
+             "bagaimana cara mendaftar",
+             "apa proses penerimaan",
+             "apa langkah-langkah penerimaan",
+             "pendaftaran",
+             "pendaftaran sekolah",
+             "pendaftaran sekolah",
+             "pendaftaran sekolah",
+             "pendaftaran sekolah",
+             "apa prosedur pendaftaran sekolah",
+             "bagaimana saya bisa mendaftar",
+             "bagaimana saya bisa mendaftar",
+             "di mana saya bisa mendaftar",
+             "formulir pendaftaran",
+             "bagaimana cara mendapatkan formulir pendaftaran",
+             "bagaimana cara mendapatkan formulir pendaftaran"
+          ],
+          "responses": [
+             "Proses pendaftaran dilakukan secara online melalui langkah langkah ppdb jatim. Berikut adalah langkah-langkah pendaftaran PPDB Jatim untuk SMK:\n\n1. **Persiapkan Dokumen**: Siapkan dokumen-dokumen penting seperti Kartu Keluarga, Akta Kelahiran, Ijazah atau Surat Keterangan Lulus, dan rapor.\n\n2. **Pendaftaran Online**: Buka situs web resmi PPDB Jawa Timur di [https://ppdbjatim.net](https://ppdbjatim.net). Buat akun jika belum memiliki akun, kemudian login.\n\n3. **Pengisian Formulir**: Isi formulir pendaftaran dengan data yang benar dan lengkap sesuai dokumen yang telah disiapkan.\n\n4. **Pilih Sekolah dan Jurusan**: Pilih SMK dan jurusan yang diinginkan sesuai dengan minat dan bakat Anda.\n\n5. **Upload Dokumen**: Upload dokumen yang telah disiapkan ke sistem PPDB.\n\n6. **Verifikasi Data**: Pastikan data yang Anda masukkan sudah benar. Verifikasi data akan dilakukan oleh panitia PPDB.\n\n7. **Pengumuman Hasil Seleksi**: Cek pengumuman hasil seleksi pada tanggal yang telah ditentukan di situs web PPDB.\n\n8. **Daftar Ulang**: Jika diterima, lakukan daftar ulang sesuai dengan petunjuk yang diberikan oleh sekolah.\n\nUntuk informasi lebih lanjut, Anda dapat mengunjungi situs web resmi https://ppdbjatim.net PPDB Jatim atau menghubungi call center PPDB Jatim."
+          ],
+          "context_set": ""
+       },
+       {
+         "tag": "ppdb_jatim_smk",
+         "patterns": [
+            "bagaimana cara mendaftar PPDB Jatim untuk SMK",
+            "langkah-langkah pendaftaran PPDB SMK di Jatim",
+            "prosedur pendaftaran PPDB SMK Jatim",
+            "cara daftar PPDB SMK Jatim",
+            "panduan pendaftaran PPDB SMK Jatim",
+            "tahapan pendaftaran PPDB SMK di Jawa Timur",
+            "apa saja yang perlu dilakukan untuk mendaftar PPDB SMK di Jatim"
+         ],
+         "responses": [
+            "Berikut adalah langkah-langkah pendaftaran PPDB Jatim untuk SMK:\n\n1. **Persiapkan Dokumen**: Siapkan dokumen-dokumen penting seperti Kartu Keluarga, Akta Kelahiran, Ijazah atau Surat Keterangan Lulus, dan rapor.\n\n2. **Pendaftaran Online**: Buka situs web resmi PPDB Jawa Timur di [https://ppdbjatim.net](https://ppdbjatim.net). Buat akun jika belum memiliki akun, kemudian login.\n\n3. **Pengisian Formulir**: Isi formulir pendaftaran dengan data yang benar dan lengkap sesuai dokumen yang telah disiapkan.\n\n4. **Pilih Sekolah dan Jurusan**: Pilih SMK dan jurusan yang diinginkan sesuai dengan minat dan bakat Anda.\n\n5. **Upload Dokumen**: Upload dokumen yang telah disiapkan ke sistem PPDB.\n\n6. **Verifikasi Data**: Pastikan data yang Anda masukkan sudah benar. Verifikasi data akan dilakukan oleh panitia PPDB.\n\n7. **Pengumuman Hasil Seleksi**: Cek pengumuman hasil seleksi pada tanggal yang telah ditentukan di situs web PPDB.\n\n8. **Daftar Ulang**: Jika diterima, lakukan daftar ulang sesuai dengan petunjuk yang diberikan oleh sekolah.\n\nUntuk informasi lebih lanjut, Anda dapat mengunjungi situs web resmi https://ppdbjatim.net PPDB Jatim atau menghubungi call center PPDB Jatim."
+         ],
+         "context_set": ""
+      },
+       {
+         "tag": "acara",
+         "patterns": [
+            "acara yang diselenggarakan",
+            "daftar acara",
+            "daftar acara yang diselenggarakan di kampus",
+            "daftar acara yang diadakan di kampus",
+            "Acara apa saja yang diadakan di kampus",
+            "Apakah ada acara di kampus",
+            "Acara?",
+            "fungsi",
+            "apa saja acara",
+            "ceritakan tentang acara",
+            "bagaimana dengan acara"
+         ],
+         "responses": [
+            "Untuk detail acara, kunjungi <a target=\"_blank\" href=\"TAMBAHKAN LINK ACARA ATAU RESPON ANDA SENDIRI\">di sini</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "dokumen",
+         "patterns": [
+            "dokumen yang harus dibawa",
+            "dokumen yang diperlukan untuk pendaftaran",
+            "dokumen yang dibutuhkan saat pendaftaran",
+            "dokumen yang diperlukan selama pendaftaran",
+            "dokumen yang dibutuhkan untuk pendaftaran",
+            "dokumen yang dibutuhkan saat pendaftaran",
+            "dokumen yang diperlukan selama pendaftaran",
+            "Dokumen apa yang diperlukan untuk pendaftaran",
+            "Dokumen apa yang harus dibawa untuk pendaftaran",
+            "dokumen",
+            "dokumen apa yang saya butuhkan",
+            "dokumen apa yang saya butuhkan untuk pendaftaran",
+            "dokumen yang dibutuhkan"
+         ],
+         "responses": [
+            "Dokumen yang anda perlukan untuk pendaftaran yaitu Kartu Keluarga, Akta Kelahiran, Ijazah atau Surat Keterangan Lulus, dan rapor."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "lantai",
+         "patterns": [
+            "Berapa banyak lantai yang dimiliki sekolah",
+            "lantai di sekolah",
+            "ada berapa lantai",
+            "Seberapa banyak lantai sekolah",
+            "lantainya ada berapa",
+            "berapa lantai"
+         ],
+         "responses": [
+            "Sekolah SMK Negeri 4 Malang terdapat 3 lantai."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "perpustakaan",
+         "patterns": [
+            "apakah ada perpustakaan",
+            "fasilitas perpustakaan",
+            "fasilitas perpustakaan",
+            "apakah ada perpustakaan",
+            "apakah kampus memiliki fasilitas perpustakaan",
+            "perpustakaan kampus",
+            "di mana saya bisa mendapatkan buku",
+            "fasilitas buku",
+            "Di mana perpustakaan",
+            "Perpustakaan",
+            "Informasi perpustakaan",
+            "Informasi buku perpustakaan",
+            "Ceritakan tentang perpustakaan",
+            "berapa banyak perpustakaan"
+         ],
+         "responses": [
+            "SMK Negeri 4 Malang terdapat perpustakaan yang besar dan luas. Jam buka dari pukul 8 pagi hingga 6 sore dan untuk informasi lebih lanjut kunjungi <a target=\"blank\" href=\"TAMBAHKAN LINK DETAIL PERPUSTAKAAN\">di sini</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "infrastruktur",
+         "patterns": [
+            "bagaimana infrastruktur kampus",
+            "infrastruktur",
+            "infrastruktur kampus"
+         ],
+         "responses": [
+            "Universitas kami memiliki Infrastruktur yang sangat baik. Kampus bersih. Laboratorium TI yang bagus dengan koneksi internet berkecepatan tinggi"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kantin",
+         "patterns": [
+            "fasilitas makanan",
+            "fasilitas kantin",
+            "fasilitas kantin",
+            "apakah ada kantin",
+            "Apakah ada kafetaria di kampus",
+            "Apakah kampus memiliki kantin",
+            "Di mana kantin",
+            "di mana kafetaria",
+            "kantin",
+            "Makanan",
+            "Kafetaria"
+         ],
+         "responses": [
+            "Universitas kami memiliki kantin dengan berbagai macam makanan tersedia"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "menu",
+         "patterns": [
+            "menu makanan",
+            "makanan di kantin",
+            "Apa yang ada di menu",
+            "apa yang tersedia di kantin kampus",
+            "makanan apa yang bisa kita dapatkan di kantin kampus",
+            "variasi makanan",
+            "Apa yang bisa dimakan?"
+         ],
+         "responses": [
+            "Kami menyajikan Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali, dan banyak lagi di menu"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "penempatan",
+         "patterns": [
+            "Bagaimana penempatan kampus",
+            "Perusahaan mana yang mengunjungi kampus",
+            "Berapa rata-rata paket",
+            "perusahaan mengunjungi",
+            "paket",
+            "Tentang penempatan",
+            "penempatan",
+            "rekrutmen",
+            "perusahaan"
+         ],
+         "responses": [
+            "Untuk mengetahui tentang penempatan, kunjungi <a target=\"_blank\" href=\"LINK INFORMASI PENEMPATAN DARI WEBSITE UNIVERSITAS ANDA JIKA ADA\">di sini</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kepala it",
+         "patterns": [
+            "Siapa Ketua Jurusan TI",
+            "Di mana Ketua Jurusan TI",
+            "ketua jurusan it",
+            "nama ketua jurusan it"
+         ],
+         "responses": [
+            "Semua departemen teknik memiliki satu kepala jurusan yaitu XYZ yang tersedia di (Nama Tempat)"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kepala komputer",
+         "patterns": [
+            "Siapa Ketua Jurusan Komputer",
+            "Di mana Ketua Jurusan Komputer",
+            "ketua jurusan komputer",
+            "nama ketua jurusan komputer"
+         ],
+         "responses": [
+            "Semua departemen teknik memiliki satu kepala jurusan yaitu XYZ yang tersedia di (Nama Tempat)"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kepala extc",
+         "patterns": [
+            "Siapa Ketua Jurusan extc",
+            "Di mana Ketua Jurusan extc",
+            "ketua jurusan extc",
+            "nama ketua jurusan extc"
+         ],
+         "responses": [
+            "Ketua jurusan berbeda untuk setiap sekolah. Jadi, lebih jelaslah dengan sekolah atau departemen Anda"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kepala sekolah",
+         "patterns": [
+            "apa nama kepala sekolah",
+            "apa nama kepala sekolah",
+            "nama kepala sekolah",
+            "Siapa kepala sekolah",
+            "Di mana kantor kepala sekolah",
+            "kepala sekolah",
+            "nama kepala sekolah"
+         ],
+         "responses": [
+            "XYZ adalah kepala sekolah dan jika Anda membutuhkan bantuan, hubungi kepala jurusan Anda terlebih dahulu. Itu lebih tepat"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "semester",
+         "patterns": [
+            "tanggal ujian",
+            "jadwal ujian",
+            "Kapan ujian semester",
+            "Jadwal ujian semester",
+            "semester",
+            "semester",
+            "ujian",
+            "kapan ujian",
+            "jadwal ujian",
+            "tanggal ujian",
+            "kapan semester"
+         ],
+         "responses": [
+            "Berikut adalah Kalender Akademik <a target=\"_blank\" href=\"KALENDER AKADEMIK ANDA\">website</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kapasitas kampus",
+         "patterns": [
+            "jumlah maksimum mahasiswa",
+            "jumlah kursi per jurusan",
+            "jumlah kursi di setiap jurusan",
+            "jumlah maksimum kursi",
+            "kapasitas maksimum mahasiswa",
+            "Berapa kapasitas kampus",
+            "berapa banyak mahasiswa yang diterima di setiap jurusan",
+            "pembagian kursi",
+            "kursi"
+         ],
+         "responses": [
+            "Untuk TI, Komputer, dan extc 60 per jurusan dan jumlah kursi bisa berbeda untuk setiap departemen."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "seragam",
+         "patterns": [
+            "kode berpakaian kampus",
+            "kode pakaian kampus",
+            "apa seragamnya",
+            "bisakah kami memakai pakaian kasual",
+            "Apakah kampus memiliki seragam",
+            "Apakah ada seragam",
+            "seragam",
+            "bagaimana dengan seragam",
+            "apakah kita harus memakai seragam"
+         ],
+         "responses": [
+            "MASUKKAN INFORMASI SERAGAM UNIVERSITAS ANDA"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "komite",
+         "patterns": [
+            "apa saja komite yang ada di kampus",
+            "komite berbeda di kampus",
+            "Apakah ada komite di kampus",
+            "Beri saya detail komite",
+            "komite",
+            "berapa banyak komite yang ada di kampus"
+         ],
+         "responses": [
+            "Untuk berbagai komite di kampus, hubungi nomor ini: TAMBAHKAN NOMOR"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "random",
+         "patterns": [
+            "Aku mencintaimu",
+            "Maukah kamu menikah denganku",
+            "Apakah kamu mencintaiku"
+         ],
+         "responses": [
+            "Saya tidak diprogram untuk ini, tolong ajukan pertanyaan yang sesuai"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kata kasar",
+         "patterns": [
+            "Bangsat",
+            "Peler",
+            "Kontol",
+            "Anjing",
+            "Tolol",
+            "Ngentod",
+            "Babi",
+            "Bajingan",
+            "kirig",
+            "jancok"
+         ],
+         "responses": [
+            "tolong gunakan bahasa yang sesuai",
+            "Menjaga kesopanan akan dihargai"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "liburan",
+         "patterns": [
+            "hari libur",
+            "kapan semester dimulai",
+            "kapan semester berakhir",
+            "kapan hari libur",
+            "daftar hari libur",
+            "Hari libur tahun ini",
+            "daftar liburan",
+            "tentang liburan",
+            "tentang hari libur",
+            "Kapan liburan",
+            "Kapan hari libur",
+            "berapa lama liburannya"
+         ],
+         "responses": [
+            "Kalender akademik akan diberikan kepada Anda oleh koordinator kelas setelah Anda bergabung dengan kelas masing-masing"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "olahraga",
+         "patterns": [
+            "olahraga dan permainan",
+            "beri detail olahraga",
+            "infrastruktur olahraga",
+            "fasilitas olahraga",
+            "informasi tentang olahraga",
+            "Kegiatan olahraga",
+            "tolong berikan informasi olahraga dan permainan"
+         ],
+         "responses": [
+            "Universitas kami mendorong pengembangan siswa secara menyeluruh dan oleh karena itu menyediakan fasilitas olahraga di kampus. Untuk detail lebih lanjut kunjungi <a target=\"_blank\" href=/\"(LINK JIKA ADA)\">di sini</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "perploncoan",
+         "patterns": [
+            "perploncoan",
+            "apakah praktik perploncoan aktif di kampus",
+            "apakah kampus memiliki fasilitas anti-perploncoan",
+            "apakah ada kasus perploncoan",
+            "apakah perploncoan dilakukan di sini",
+            "perploncoan melawan",
+            "fasilitas anti-perploncoan",
+            "perploncoan junior",
+            "sejarah perploncoan",
+            "insiden perploncoan"
+         ],
+         "responses": [
+            "Kami bangga memberitahu Anda bahwa kampus kami menyediakan lingkungan bebas perploncoan, dan kami memiliki aturan ketat terhadap perploncoan"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kepala departemen",
+         "patterns": [
+            "kepala departemen",
+            "nama kepala departemen",
+            "siapa kepala departemen"
+         ],
+         "responses": [
+            "Kepala departemen berbeda untuk setiap jurusan, tolong lebih spesifik seperti: (Kepala departemen TI)"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "penerimaan",
+         "patterns": [
+            "bagaimana proses penerimaan",
+            "bagaimana proses penerimaan",
+            "Bagaimana cara mendaftar di kampus Anda",
+            "Bagaimana proses penerimaan",
+            "penerimaan",
+            "proses penerimaan"
+         ],
+         "responses": [
+            "Aplikasi juga dapat diajukan secara online melalui <a target=\"_blank\" href=\"LINK DOKUMEN PENDAFTARAN\">website</a> Sekolah"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "beasiswa",
+         "patterns": [
+            "beasiswa",
+            "Apakah ada beasiswa",
+            "beasiswa teknik",
+            "beasiswa ti",
+            "beasiswa ce",
+            "beasiswa mesin",
+            "beasiswa sipil",
+            "beasiswa kimia",
+            "beasiswa untuk AI/ML",
+            "beasiswa yang tersedia",
+            "beasiswa untuk teknik komputer",
+            "beasiswa untuk teknik TI",
+            "beasiswa untuk teknik mesin",
+            "beasiswa untuk teknik sipil",
+            "beasiswa untuk teknik kimia",
+            "beasiswa untuk teknik extc",
+            "beasiswa untuk teknik listrik"
+         ],
+         "responses": [
+            "Beasiswa disediakan oleh universitas setelah masuk. Untuk detail lebih lanjut, klik <a target=\"_blank\" href=\"LINK DOKUMEN BEASISWA\">website</a>"
+         ],
+         "context_set": ""
+      },      
+       {
+         "tag": "fasilitas",
+         "patterns": [
+            "fasilitas sekolah",
+            "layanan sekolah",
+            "fasilitas yang disediakan",
+            "layanan yang disediakan",
+            "fasilitas sekolah",
+            "layanan sekolah",
+            "fasilitas",
+            "layanan",
+            "apa saja fasilitas yang disediakan",
+            "fasilitas yang disediakan sekolah",
+            "layanan yang disediakan sekolah"
+         ],
+         "responses": [
+            "Sekolah kami memiliki fasilitas yang meliputi perpustakaan, laboratorium komputer, ruang seni, ruang olahraga, dan fasilitas lain yang mendukung kegiatan belajar mengajar.",
+            "Kami menyediakan fasilitas seperti perpustakaan, laboratorium komputer, ruang seni, ruang olahraga, dan berbagai fasilitas pendukung lainnya.",
+            "Fasilitas di sekolah kami termasuk perpustakaan, laboratorium komputer, ruang seni, ruang olahraga, dan fasilitas pendukung lainnya.",
+            "Sekolah kami memiliki berbagai fasilitas seperti perpustakaan, laboratorium komputer, ruang seni, ruang olahraga, dan fasilitas pendukung lainnya."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kurikulum",
+         "patterns": [
+            "kurikulum apa yang digunakan",
+            "mata pelajaran apa saja yang diajarkan",
+            "apa saja pelajaran di sekolah",
+            "kurikulum sekolah"
+         ],
+         "responses": [
+            "Sekolah kami menggunakan kurikulum nasional dengan tambahan mata pelajaran internasional. Mata pelajaran yang diajarkan meliputi Matematika, IPA, Bahasa Inggris, dan lainnya."
+         ],
+         "context_set": ""
+      },      
+      {
+         "tag": "ekstrakurikuler",
+         "patterns": [
+            "ekstrakurikuler",
+            "kegiatan ekstrakurikuler",
+            "kegiatan tambahan",
+            "kegiatan setelah sekolah",
+            "kegiatan ekstrakurikuler yang ditawarkan",
+            "kegiatan tambahan yang ditawarkan",
+            "kegiatan setelah sekolah yang ditawarkan",
+            "apa saja kegiatan ekstrakurikuler yang tersedia",
+            "apa saja kegiatan tambahan yang tersedia",
+            "apa saja kegiatan setelah sekolah yang tersedia",
+            "ekstrakurikuler yang tersedia",
+            "kegiatan tambahan yang tersedia",
+            "kegiatan setelah sekolah yang tersedia"
+         ],
+         "responses": [
+            "Kami menawarkan berbagai kegiatan ekstrakurikuler seperti klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lain-lain.",
+            "Berbagai kegiatan ekstrakurikuler yang ditawarkan meliputi klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lainnya.",
+            "Ekstrakurikuler di sekolah kami mencakup klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan berbagai kegiatan lainnya.",
+            "Di sekolah kami, tersedia banyak kegiatan ekstrakurikuler seperti klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lain-lain."
+         ],
+         "context_set": ""
+      },
+       {
+          "tag": "bantuan",
+          "patterns": [
+             "Apakah kamu bisa membantu?",
+             "Tolong saya",
+             "Apakah kamu bisa membantuku?",
+             "Apa kamu bisa menolongku?",
+             "Saya membutuhkan bantuan",
+             "Bisa bantu saya?",
+             "Bisa bantu saya?",
+             "Bisa bantu saya?",
+             "Bisa bantu saya?",
+             "Tolong",
+             "Tolong saya",
+             "Bantuan"
+          ],
+          "responses": [
+             "Tentu! Bagaimana saya bisa membantu?",
+             "Saya di sini untuk membantu. Apa yang kamu butuhkan?",
+             "Bagaimana saya bisa membantu?",
+             "Apa yang kamu butuhkan?",
+             "Dengan senang hati untuk membantumu"
+          ],
+          "context_set": ""
+       },
+       {
+         "tag": "thanks",
+         "patterns": [
+            "terima kasih",
+            "makasih ya",
+            "terima kasih banyak",
+            "makasih banyak",
+            "saya sangat berterima kasih",
+            "makasih banyak ya",
+            "makasih sekali",
+            "makasih banyak",
+            "makasih",
+            "makasih atas jasanya",
+            "makasih telah membantu"
+         ],
+         "responses": [
+            "Sama-sama! Senang sekali bisa membantu anda",
+            "Sama-sama!",
+            "Senang bisa membantu!",
+            "Dengan senang hati!"
+         ],
+         "context_set": ""
+      }
+    ]
+ }
+ 
