@@ -389,7 +389,7 @@
             "Kafetaria"
          ],
          "responses": [
-            "Universitas kami memiliki kantin dengan berbagai macam makanan tersedia"
+            "Sekolah kami memiliki kantin dengan berbagai macam makanan tersedia, kantin terletak di gerbang timur. Kamu juga bisa membeli makanan di koperasi siswa (kopsis) di sebelah timur labana"
          ],
          "context_set": ""
       },
@@ -402,67 +402,40 @@
             "apa yang tersedia di kantin kampus",
             "makanan apa yang bisa kita dapatkan di kantin kampus",
             "variasi makanan",
-            "Apa yang bisa dimakan?"
+            "Apa yang bisa dimakan?",
+            "Ada apa saja di kantin",
+            "jajan apa saja di kantin"
          ],
          "responses": [
-            "Kami menyajikan Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali, dan banyak lagi di menu"
+            "Kami menyajikan makanan ringan yang tidak bisa sebutkan satu satu, pentol, nasi dengan ayam, dan masih banyak lagi"
          ],
          "context_set": ""
       },
       {
-         "tag": "penempatan",
+         "tag": "kabeng rpl",
          "patterns": [
-            "Bagaimana penempatan kampus",
-            "Perusahaan mana yang mengunjungi kampus",
-            "Berapa rata-rata paket",
-            "perusahaan mengunjungi",
-            "paket",
-            "Tentang penempatan",
-            "penempatan",
-            "rekrutmen",
-            "perusahaan"
+            "Siapa Ketua Jurusan RPL",
+            "Siapa Ketua Jurusan Rekayasa Perangkat Lunak",
+            "Di mana Ketua Jurusan RPL",
+            "ketua jurusan rpl",
+            "nama ketua jurusan rpl"
          ],
          "responses": [
-            "Untuk mengetahui tentang penempatan, kunjungi <a target=\"_blank\" href=\"LINK INFORMASI PENEMPATAN DARI WEBSITE UNIVERSITAS ANDA JIKA ADA\">di sini</a>"
+            "Untuk ketua jurusan Rekayasa Perangkat Lunak yaitu Antyassari yang biasanya terdapat di lab 4 jika tidak mengajar"
          ],
          "context_set": ""
       },
       {
-         "tag": "kepala it",
+         "tag": "kepala tkj",
          "patterns": [
-            "Siapa Ketua Jurusan TI",
-            "Di mana Ketua Jurusan TI",
-            "ketua jurusan it",
-            "nama ketua jurusan it"
+            "Siapa Ketua Jurusan TKJ",
+            "Siapa Ketua Jurusan Teknik Komputer Jaringan",
+            "Di mana Ketua Jurusan TKJ",
+            "ketua jurusan tkj",
+            "nama ketua jurusan tkj"
          ],
          "responses": [
-            "Semua departemen teknik memiliki satu kepala jurusan yaitu XYZ yang tersedia di (Nama Tempat)"
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "kepala komputer",
-         "patterns": [
-            "Siapa Ketua Jurusan Komputer",
-            "Di mana Ketua Jurusan Komputer",
-            "ketua jurusan komputer",
-            "nama ketua jurusan komputer"
-         ],
-         "responses": [
-            "Semua departemen teknik memiliki satu kepala jurusan yaitu XYZ yang tersedia di (Nama Tempat)"
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "kepala extc",
-         "patterns": [
-            "Siapa Ketua Jurusan extc",
-            "Di mana Ketua Jurusan extc",
-            "ketua jurusan extc",
-            "nama ketua jurusan extc"
-         ],
-         "responses": [
-            "Ketua jurusan berbeda untuk setiap sekolah. Jadi, lebih jelaslah dengan sekolah atau departemen Anda"
+            "UNKNOWN"
          ],
          "context_set": ""
       },
@@ -478,12 +451,16 @@
             "nama kepala sekolah"
          ],
          "responses": [
-            "XYZ adalah kepala sekolah dan jika Anda membutuhkan bantuan, hubungi kepala jurusan Anda terlebih dahulu. Itu lebih tepat"
+            "Kepala sekolah kami adalah Drs. Gunawan Dwiyono, M.Pd. sejak tahun 2021.",
+            "Drs. Gunawan Dwiyono, M.Pd. adalah kepala sekolah kami sejak tahun 2021 hingga sekarang.",
+            "Nama kepala sekolah kami adalah Drs. Gunawan Dwiyono, M.Pd.",
+            "Kepala sekolah saat ini adalah Drs. Gunawan Dwiyono, M.Pd., yang menjabat sejak tahun 2021.",
+            "Drs. Gunawan Dwiyono, M.Pd. telah menjadi kepala sekolah kami sejak tahun 2021."
          ],
          "context_set": ""
       },
       {
-         "tag": "semester",
+         "tag": "ujian",
          "patterns": [
             "tanggal ujian",
             "jadwal ujian",
@@ -498,35 +475,44 @@
             "kapan semester"
          ],
          "responses": [
-            "Berikut adalah Kalender Akademik <a target=\"_blank\" href=\"KALENDER AKADEMIK ANDA\">website</a>"
+            "Untuk ujian akhir semester 1 akan dilaksanakan di bulan November dan untuk ujian akhir semester 2 akan dilaksanakan di bulan Mei. Ujiannya akan berbasis PJBL atau project based learning.",
+            "Jadwal ujian akhir semester 1 adalah di bulan November, sedangkan ujian akhir semester 2 akan diadakan di bulan Mei. Ujian tersebut berbasis PJBL atau project based learning.",
+            "Ujian akhir semester 1 akan diadakan pada bulan November dan ujian akhir semester 2 akan diadakan pada bulan Mei. Ujian kami menggunakan metode PJBL atau project based learning.",
+            "Semester 1 ujian akhirnya akan diadakan pada bulan November, dan semester 2 ujian akhirnya di bulan Mei. Semua ujian berbasis PJBL atau project based learning.",
+            "Untuk jadwal ujian, ujian akhir semester 1 akan berlangsung di bulan November dan ujian akhir semester 2 di bulan Mei. Ujian tersebut berbasis PJBL atau project based learning."
          ],
          "context_set": ""
       },
       {
-         "tag": "kapasitas kampus",
+         "tag": "jumlah siswa",
          "patterns": [
-            "jumlah maksimum mahasiswa",
-            "jumlah kursi per jurusan",
+            "jumlah maksimum siswa",
+            "sekolah ini menerima berapa siswa",
+            "jumlah yang diterima per jurusan",
+            "berapa siswa yang diterima",
             "jumlah kursi di setiap jurusan",
             "jumlah maksimum kursi",
-            "kapasitas maksimum mahasiswa",
-            "Berapa kapasitas kampus",
-            "berapa banyak mahasiswa yang diterima di setiap jurusan",
+            "kapasitas maksimum siswa",
+            "Berapa kapasitas sekolah",
+            "berapa banyak siswa yang diterima di setiap jurusan",
             "pembagian kursi",
             "kursi"
          ],
          "responses": [
-            "Untuk TI, Komputer, dan extc 60 per jurusan dan jumlah kursi bisa berbeda untuk setiap departemen."
+            "Untuk jumlah siswa yang tersedia di SMKN 4 Malang yaitu sebagai berikut: Teknik Grafika tersedia 288 siswa dengan 8 kelas, Desain Komunikasi Visual tersedia 108 siswa dengan 3 kelas, Rekayasa Perangkat Lunak tersedia 108 siswa dengan 3 kelas, Teknik Komputer dan Jaringan tersedia 72 siswa dengan 2 kelas, Animasi tersedia 108 siswa dengan 3 kelas, Teknik Logistik tersedia 72 siswa dengan 2 kelas, Teknik Mekatronika tersedia 72 siswa dengan 2 kelas, Perhotelan tersedia 72 siswa dengan 2 kelas.",
+            "SMKN 4 Malang memiliki kapasitas sebagai berikut: Teknik Grafika 288 siswa (8 kelas), Desain Komunikasi Visual 108 siswa (3 kelas), Rekayasa Perangkat Lunak 108 siswa (3 kelas), Teknik Komputer dan Jaringan 72 siswa (2 kelas), Animasi 108 siswa (3 kelas), Teknik Logistik 72 siswa (2 kelas), Teknik Mekatronika 72 siswa (2 kelas), Perhotelan 72 siswa (2 kelas).",
+            "Di SMKN 4 Malang, kapasitas per jurusan adalah: Teknik Grafika 288 siswa dengan 8 kelas, Desain Komunikasi Visual 108 siswa dengan 3 kelas, Rekayasa Perangkat Lunak 108 siswa dengan 3 kelas, Teknik Komputer dan Jaringan 72 siswa dengan 2 kelas, Animasi 108 siswa dengan 3 kelas, Teknik Logistik 72 siswa dengan 2 kelas, Teknik Mekatronika 72 siswa dengan 2 kelas, Perhotelan 72 siswa dengan 2 kelas.",
+            "Jumlah kursi yang tersedia di SMKN 4 Malang adalah: Teknik Grafika 288 siswa (8 kelas), Desain Komunikasi Visual 108 siswa (3 kelas), Rekayasa Perangkat Lunak 108 siswa (3 kelas), Teknik Komputer dan Jaringan 72 siswa (2 kelas), Animasi 108 siswa (3 kelas), Teknik Logistik 72 siswa (2 kelas), Teknik Mekatronika 72 siswa (2 kelas), Perhotelan 72 siswa (2 kelas).",
+            "SMKN 4 Malang menerima siswa dengan kapasitas sebagai berikut: Teknik Grafika 288 siswa (8 kelas), Desain Komunikasi Visual 108 siswa (3 kelas), Rekayasa Perangkat Lunak 108 siswa (3 kelas), Teknik Komputer dan Jaringan 72 siswa (2 kelas), Animasi 108 siswa (3 kelas), Teknik Logistik 72 siswa (2 kelas), Teknik Mekatronika 72 siswa (2 kelas), Perhotelan 72 siswa (2 kelas)."
          ],
          "context_set": ""
       },
       {
          "tag": "seragam",
          "patterns": [
-            "kode berpakaian kampus",
-            "kode pakaian kampus",
+            "kode berpakaian sekolah",
+            "kode pakaian sekolah",
             "apa seragamnya",
-            "bisakah kami memakai pakaian kasual",
             "Apakah kampus memiliki seragam",
             "Apakah ada seragam",
             "seragam",
@@ -534,7 +520,11 @@
             "apakah kita harus memakai seragam"
          ],
          "responses": [
-            "MASUKKAN INFORMASI SERAGAM UNIVERSITAS ANDA"
+            "Kami mengharuskan setiap siswa untuk memakai seragam. Seragam telah sesuai dengan yang diberikan kepada setiap siswa. Untuk seragam hari Senin-Selasa menggunakan (baju) putih (celana) abu-abu, Rabu-Kamis menggunakan baju batik dengan celana hitam, Jumat menggunakan seragam pramuka. Ketika mapel produktif menggunakan katelpak. Ketika upacara diperkenankan untuk menggunakan almamater beserta topi.",
+            "Setiap siswa diharuskan memakai seragam yang telah ditentukan. Senin-Selasa: baju putih dan celana abu-abu. Rabu-Kamis: baju batik dan celana hitam. Jumat: seragam pramuka. Untuk mapel produktif, gunakan katelpak. Saat upacara, gunakan almamater dan topi.",
+            "Seragam sekolah harus dipakai sesuai jadwal: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Saat pelajaran produktif, pakai katelpak. Untuk upacara, kenakan almamater dan topi.",
+            "Di sekolah kami, siswa wajib memakai seragam. Jadwal seragam: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Mapel produktif: katelpak. Upacara: almamater dan topi.",
+            "Seragam sekolah telah diatur dengan jadwal sebagai berikut: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Ketika pelajaran produktif, gunakan katelpak. Saat upacara, kenakan almamater dan topi."
          ],
          "context_set": ""
       },
