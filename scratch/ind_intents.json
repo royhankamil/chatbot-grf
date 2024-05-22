@@ -604,42 +604,15 @@
             "infrastruktur olahraga",
             "fasilitas olahraga",
             "informasi tentang olahraga",
-            "Kegiatan olahraga",
+            "kegiatan olahraga",
             "tolong berikan informasi olahraga dan permainan"
          ],
          "responses": [
-            "Universitas kami mendorong pengembangan siswa secara menyeluruh dan oleh karena itu menyediakan fasilitas olahraga di kampus. Untuk detail lebih lanjut kunjungi <a target=\"_blank\" href=/\"(LINK JIKA ADA)\">di sini</a>"
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "perploncoan",
-         "patterns": [
-            "perploncoan",
-            "apakah praktik perploncoan aktif di kampus",
-            "apakah kampus memiliki fasilitas anti-perploncoan",
-            "apakah ada kasus perploncoan",
-            "apakah perploncoan dilakukan di sini",
-            "perploncoan melawan",
-            "fasilitas anti-perploncoan",
-            "perploncoan junior",
-            "sejarah perploncoan",
-            "insiden perploncoan"
-         ],
-         "responses": [
-            "Kami bangga memberitahu Anda bahwa kampus kami menyediakan lingkungan bebas perploncoan, dan kami memiliki aturan ketat terhadap perploncoan"
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "kepala departemen",
-         "patterns": [
-            "kepala departemen",
-            "nama kepala departemen",
-            "siapa kepala departemen"
-         ],
-         "responses": [
-            "Kepala departemen berbeda untuk setiap jurusan, tolong lebih spesifik seperti: (Kepala departemen TI)"
+            "Kami menyediakan beberapa fasilitas olahraga seperti lapangan serba guna, yang dapat digunakan untuk sepak bola, bulu tangkis, bola basket, voli, dan lainnya. Jika anda ingin jam tambahan olahraga, anda dapat mengikuti ekstrakurikuler olahraga seperti sepak bola, PB Grafika, karate, taekwondo, dan lain sebagainya.",
+            "Sekolah kami memiliki lapangan serba guna yang dapat digunakan untuk berbagai jenis olahraga seperti sepak bola, bulu tangkis, bola basket, dan voli. Untuk jam tambahan olahraga, tersedia ekstrakurikuler seperti sepak bola, PB Grafika, karate, taekwondo, dan lainnya.",
+            "Fasilitas olahraga di sekolah kami meliputi lapangan serba guna yang bisa digunakan untuk berbagai olahraga seperti sepak bola, bulu tangkis, bola basket, dan voli. Selain itu, kami juga menawarkan ekstrakurikuler olahraga seperti sepak bola, PB Grafika, karate, taekwondo, dan lain-lain untuk jam tambahan olahraga.",
+            "Kami memiliki fasilitas olahraga yang lengkap seperti lapangan serba guna untuk sepak bola, bulu tangkis, bola basket, dan voli. Untuk tambahan latihan, tersedia ekstrakurikuler olahraga seperti sepak bola, PB Grafika, karate, taekwondo, dan lainnya.",
+            "Di sekolah kami, tersedia lapangan serba guna yang dapat digunakan untuk berbagai olahraga seperti sepak bola, bulu tangkis, bola basket, dan voli. Selain itu, kami menawarkan ekstrakurikuler olahraga seperti sepak bola, PB Grafika, karate, taekwondo, dan lain-lain untuk siswa yang menginginkan jam tambahan olahraga."
          ],
          "context_set": ""
       },
@@ -648,7 +621,7 @@
          "patterns": [
             "bagaimana proses penerimaan",
             "bagaimana proses penerimaan",
-            "Bagaimana cara mendaftar di kampus Anda",
+            "Bagaimana cara mendaftar di sekolah Anda",
             "Bagaimana proses penerimaan",
             "penerimaan",
             "proses penerimaan"
@@ -680,7 +653,7 @@
             "beasiswa untuk teknik listrik"
          ],
          "responses": [
-            "Beasiswa disediakan oleh universitas setelah masuk. Untuk detail lebih lanjut, klik <a target=\"_blank\" href=\"LINK DOKUMEN BEASISWA\">website</a>"
+            "Beasiswa disediakan oleh sekolah setelah masuk. Untuk detail lebih lanjut, klik <a target=\"_blank\" href=\"LINK DOKUMEN BEASISWA\">website</a>"
          ],
          "context_set": ""
       },      
