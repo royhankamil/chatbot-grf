@@ -62,7 +62,7 @@
              "siapa yang mencipakanmu"
           ],
           "responses": [
-             "Saya dibuat oleh siswa dari SMKN 4 Malang, Achmad Royhan Kamil sebagai data scientist dan Muhammad Daanii A"
+             "Saya dibuat oleh siswa dari SMKN 4 Malang, Achmad Royhan Kamil sebagai data scientist dan Muhammad Daanii A sebagai data miner"
           ],
           "context_set": ""
        },
@@ -281,26 +281,6 @@
          ],
          "context_set": ""
       },
-       {
-         "tag": "acara",
-         "patterns": [
-            "acara yang diselenggarakan",
-            "daftar acara",
-            "daftar acara yang diselenggarakan di kampus",
-            "daftar acara yang diadakan di kampus",
-            "Acara apa saja yang diadakan di kampus",
-            "Apakah ada acara di kampus",
-            "Acara?",
-            "fungsi",
-            "apa saja acara",
-            "ceritakan tentang acara",
-            "bagaimana dengan acara"
-         ],
-         "responses": [
-            "Untuk detail acara, kunjungi <a target=\"_blank\" href=\"TAMBAHKAN LINK ACARA ATAU RESPON ANDA SENDIRI\">di sini</a>"
-         ],
-         "context_set": ""
-      },
       {
          "tag": "dokumen",
          "patterns": [
@@ -362,18 +342,6 @@
          "context_set": ""
       },
       {
-         "tag": "infrastruktur",
-         "patterns": [
-            "bagaimana infrastruktur kampus",
-            "infrastruktur",
-            "infrastruktur kampus"
-         ],
-         "responses": [
-            "Universitas kami memiliki Infrastruktur yang sangat baik. Kampus bersih. Laboratorium TI yang bagus dengan koneksi internet berkecepatan tinggi"
-         ],
-         "context_set": ""
-      },
-      {
          "tag": "kantin",
          "patterns": [
             "fasilitas makanan",
@@ -422,20 +390,6 @@
          ],
          "responses": [
             "Untuk ketua jurusan Rekayasa Perangkat Lunak yaitu Antyassari yang biasanya terdapat di lab 4 jika tidak mengajar"
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "kepala tkj",
-         "patterns": [
-            "Siapa Ketua Jurusan TKJ",
-            "Siapa Ketua Jurusan Teknik Komputer Jaringan",
-            "Di mana Ketua Jurusan TKJ",
-            "ketua jurusan tkj",
-            "nama ketua jurusan tkj"
-         ],
-         "responses": [
-            "UNKNOWN"
          ],
          "context_set": ""
       },
@@ -592,7 +546,7 @@
             "berapa lama liburannya"
          ],
          "responses": [
-            "Kalender akademik akan diberikan kepada Anda oleh koordinator kelas setelah Anda bergabung dengan kelas masing-masing"
+            "Untuk hari libur akan mengikuti keputusan pemerintah."
          ],
          "context_set": ""
       },
@@ -620,43 +574,20 @@
          "tag": "penerimaan",
          "patterns": [
             "bagaimana proses penerimaan",
-            "bagaimana proses penerimaan",
-            "Bagaimana cara mendaftar di sekolah Anda",
+            "bagaimana cara mendaftar di sekolah Anda",
             "Bagaimana proses penerimaan",
             "penerimaan",
             "proses penerimaan"
          ],
          "responses": [
-            "Aplikasi juga dapat diajukan secara online melalui <a target=\"_blank\" href=\"LINK DOKUMEN PENDAFTARAN\">website</a> Sekolah"
+            "Akan dilakukan pemberitahuan untuk setiap tahapan sesuai jadwalnya, apakah siswa yang terdaftar sudah diterima atau tidak.",
+            "Proses penerimaan akan diberitahukan pada setiap tahapan sesuai jadwal yang telah ditentukan, apakah siswa yang mendaftar telah diterima atau belum.",
+            "Setiap tahapan proses penerimaan akan diberitahukan sesuai jadwalnya, dan kami akan menginformasikan apakah siswa yang terdaftar sudah diterima atau belum.",
+            "Kami akan memberikan pemberitahuan untuk setiap tahapan proses penerimaan sesuai dengan jadwal yang telah ditentukan, untuk memberitahukan apakah siswa yang mendaftar telah diterima atau belum.",
+            "Untuk setiap tahapan proses penerimaan, akan ada pemberitahuan sesuai dengan jadwal yang telah ditentukan, apakah siswa yang terdaftar sudah diterima atau tidak."
          ],
          "context_set": ""
-      },
-      {
-         "tag": "beasiswa",
-         "patterns": [
-            "beasiswa",
-            "Apakah ada beasiswa",
-            "beasiswa teknik",
-            "beasiswa ti",
-            "beasiswa ce",
-            "beasiswa mesin",
-            "beasiswa sipil",
-            "beasiswa kimia",
-            "beasiswa untuk AI/ML",
-            "beasiswa yang tersedia",
-            "beasiswa untuk teknik komputer",
-            "beasiswa untuk teknik TI",
-            "beasiswa untuk teknik mesin",
-            "beasiswa untuk teknik sipil",
-            "beasiswa untuk teknik kimia",
-            "beasiswa untuk teknik extc",
-            "beasiswa untuk teknik listrik"
-         ],
-         "responses": [
-            "Beasiswa disediakan oleh sekolah setelah masuk. Untuk detail lebih lanjut, klik <a target=\"_blank\" href=\"LINK DOKUMEN BEASISWA\">website</a>"
-         ],
-         "context_set": ""
-      },      
+      },    
        {
          "tag": "fasilitas",
          "patterns": [
@@ -689,7 +620,11 @@
             "kurikulum sekolah"
          ],
          "responses": [
-            "Sekolah kami menggunakan kurikulum nasional dengan tambahan mata pelajaran internasional. Mata pelajaran yang diajarkan meliputi Matematika, IPA, Bahasa Inggris, dan lainnya."
+            "Sekolah kami menggunakan Kurikulum Merdeka. Kurikulum ini memberikan fleksibilitas bagi siswa untuk memilih mata pelajaran yang sesuai dengan minat dan bakat mereka. Selain itu, kurikulum ini juga menekankan pada pengembangan karakter dan kemampuan berpikir kritis.",
+            "Kami menerapkan Kurikulum Merdeka, yang memberikan kebebasan kepada siswa untuk memilih mata pelajaran sesuai dengan minat dan potensi mereka. Kurikulum ini dirancang untuk membantu siswa mengembangkan kompetensi dan karakter, serta kemampuan berpikir analitis dan kreatif.",
+            "Sekolah kami mengikuti Kurikulum Merdeka, yang dirancang untuk memberikan fleksibilitas dan kebebasan kepada siswa dalam memilih mata pelajaran. Kurikulum ini juga menekankan pada pengembangan karakter, keterampilan berpikir kritis, dan kemampuan untuk memecahkan masalah secara kreatif.",
+            "Dengan menggunakan Kurikulum Merdeka, sekolah kami memberikan kesempatan kepada siswa untuk mengeksplorasi minat dan bakat mereka melalui pilihan mata pelajaran yang beragam. Kurikulum ini juga berfokus pada pembentukan karakter yang kuat dan keterampilan berpikir kritis yang diperlukan untuk menghadapi tantangan masa depan.",
+            "Sekolah kami mengadopsi Kurikulum Merdeka yang memberikan keleluasaan bagi siswa dalam menentukan mata pelajaran yang ingin mereka pelajari. Kurikulum ini juga mengutamakan pengembangan karakter, kemampuan berpikir kritis, dan keterampilan kreatif yang penting untuk kesuksesan di masa depan."
          ],
          "context_set": ""
       },      
@@ -711,10 +646,11 @@
             "kegiatan setelah sekolah yang tersedia"
          ],
          "responses": [
-            "Kami menawarkan berbagai kegiatan ekstrakurikuler seperti klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lain-lain.",
-            "Berbagai kegiatan ekstrakurikuler yang ditawarkan meliputi klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lainnya.",
-            "Ekstrakurikuler di sekolah kami mencakup klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan berbagai kegiatan lainnya.",
-            "Di sekolah kami, tersedia banyak kegiatan ekstrakurikuler seperti klub olahraga, klub seni, klub musik, klub debat, klub ilmiah, dan lain-lain."
+            "Kegiatan ekstrakurikuler atau ekskul adalah kegiatan tambahan yang dilakukan di luar jam pelajaran yang dilakukan baik di sekolah atau di luar sekolah dengan tujuan untuk mendapatkan tambahan pengetahuan, keterampilan dan wawasan serta membantu membentuk karakter peserta didik sesuai dengan minat dan bakat masing-masing. Kami menawarkan berbagai kegiatan ekstrakurikuler seperti: Pramuka (Wajib), Pramuka Inti, 5R, Jurnalistik, English Debate, Paduan Suara, Seni Musik (Home Band), Seni Rupa, Seni Tari, Sepak Bola, Bola Basket, Bola Volley, Futsal, Bulu Tangkis, Pencak Silat, Taekwondo, Karate, Pencinta Alam, dan Airsoftgun.",
+            "Sekolah kami menyediakan berbagai kegiatan ekstrakurikuler untuk menambah pengetahuan, keterampilan, dan wawasan siswa serta membantu membentuk karakter sesuai minat dan bakat mereka. Kegiatan ekskul yang kami tawarkan meliputi: Pramuka (Wajib), Pramuka Inti, 5R, Jurnalistik, English Debate, Paduan Suara, Seni Musik (Home Band), Seni Rupa, Seni Tari, Sepak Bola, Bola Basket, Bola Volley, Futsal, Bulu Tangkis, Pencak Silat, Taekwondo, Karate, Pencinta Alam, dan Airsoftgun.",
+            "Di sekolah kami, kegiatan ekstrakurikuler bertujuan untuk memberikan tambahan pengetahuan, keterampilan, dan wawasan serta membantu pembentukan karakter peserta didik. Kami menawarkan berbagai ekskul seperti: Pramuka (Wajib), Pramuka Inti, 5R, Jurnalistik, English Debate, Paduan Suara, Seni Musik (Home Band), Seni Rupa, Seni Tari, Sepak Bola, Bola Basket, Bola Volley, Futsal, Bulu Tangkis, Pencak Silat, Taekwondo, Karate, Pencinta Alam, dan Airsoftgun.",
+            "Ekstrakurikuler di sekolah kami dilakukan di luar jam pelajaran dengan tujuan mendapatkan tambahan pengetahuan, keterampilan, dan wawasan serta membentuk karakter sesuai minat dan bakat siswa. Kami memiliki berbagai kegiatan ekskul, antara lain: Pramuka (Wajib), Pramuka Inti, 5R, Jurnalistik, English Debate, Paduan Suara, Seni Musik (Home Band), Seni Rupa, Seni Tari, Sepak Bola, Bola Basket, Bola Volley, Futsal, Bulu Tangkis, Pencak Silat, Taekwondo, Karate, Pencinta Alam, dan Airsoftgun.",
+            "Sekolah kami menyediakan berbagai kegiatan ekstrakurikuler untuk mendukung pengetahuan, keterampilan, dan pembentukan karakter siswa sesuai minat dan bakat mereka. Kegiatan ekskul yang kami tawarkan meliputi: Pramuka (Wajib), Pramuka Inti, 5R, Jurnalistik, English Debate, Paduan Suara, Seni Musik (Home Band), Seni Rupa, Seni Tari, Sepak Bola, Bola Basket, Bola Volley, Futsal, Bulu Tangkis, Pencak Silat, Taekwondo, Karate, Pencinta Alam, dan Airsoftgun."
          ],
          "context_set": ""
       },
