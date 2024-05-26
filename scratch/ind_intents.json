@@ -19,7 +19,7 @@
              "Halo, senang berjumpa dengan anda lagi",
              "Hai! Bagaimana saya bisa membantu Anda hari ini?"
           ],
-          "context_set": [""]
+          "context_set": ""
        },
        {
           "tag": "selamat_tinggal",
@@ -137,7 +137,7 @@
              "hubungi"
           ],
           "responses": [
-             "Anda dapat menghubungi di: NOMOR"
+             "Anda dapat menghubungi di nomer telp : (0341) 353798 atau bisa melalui email mail@smkn4malang.sch.id"
           ],
           "context_set": ""
        },
@@ -337,7 +337,7 @@
             "berapa banyak perpustakaan"
          ],
          "responses": [
-            "SMK Negeri 4 Malang terdapat perpustakaan yang besar dan luas. Jam buka dari pukul 8 pagi hingga 6 sore dan untuk informasi lebih lanjut kunjungi <a target=\"blank\" href=\"TAMBAHKAN LINK DETAIL PERPUSTAKAAN\">di sini</a>"
+            "SMK Negeri 4 Malang terdapat perpustakaan yang besar dan luas. Jam buka dari pukul 8 pagi hingga 6 sore"
          ],
          "context_set": ""
       },
@@ -375,7 +375,11 @@
             "jajan apa saja di kantin"
          ],
          "responses": [
-            "Kami menyajikan makanan ringan yang tidak bisa sebutkan satu satu, pentol, nasi dengan ayam, dan masih banyak lagi"
+            "Kami menyajikan berbagai makanan ringan yang tidak bisa disebutkan satu per satu, seperti pentol, nasi dengan ayam, dan masih banyak lagi.",
+            "Di kantin kami, tersedia berbagai macam makanan ringan, pentol, nasi dengan ayam, dan masih banyak lagi.",
+            "Kantin kami menyediakan berbagai makanan, termasuk makanan ringan, pentol, nasi dengan ayam, dan masih banyak lagi.",
+            "Anda bisa menemukan berbagai makanan di kantin kami, mulai dari makanan ringan, pentol, nasi dengan ayam, dan banyak pilihan lainnya.",
+            "Berbagai makanan tersedia di kantin kami, seperti makanan ringan, pentol, nasi dengan ayam, dan masih banyak lagi yang tidak bisa disebutkan satu per satu."
          ],
          "context_set": ""
       },
@@ -479,21 +483,6 @@
             "Seragam sekolah harus dipakai sesuai jadwal: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Saat pelajaran produktif, pakai katelpak. Untuk upacara, kenakan almamater dan topi.",
             "Di sekolah kami, siswa wajib memakai seragam. Jadwal seragam: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Mapel produktif: katelpak. Upacara: almamater dan topi.",
             "Seragam sekolah telah diatur dengan jadwal sebagai berikut: Senin-Selasa baju putih dan celana abu-abu, Rabu-Kamis baju batik dan celana hitam, Jumat seragam pramuka. Ketika pelajaran produktif, gunakan katelpak. Saat upacara, kenakan almamater dan topi."
-         ],
-         "context_set": ""
-      },
-      {
-         "tag": "komite",
-         "patterns": [
-            "apa saja komite yang ada di kampus",
-            "komite berbeda di kampus",
-            "Apakah ada komite di kampus",
-            "Beri saya detail komite",
-            "komite",
-            "berapa banyak komite yang ada di kampus"
-         ],
-         "responses": [
-            "Untuk berbagai komite di kampus, hubungi nomor ini: TAMBAHKAN NOMOR"
          ],
          "context_set": ""
       },
