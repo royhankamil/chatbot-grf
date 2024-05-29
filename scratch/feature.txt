@@ -13,3 +13,4 @@ fitur dari chatbot grafika ini
 - dapat memberikan saran jurusan, memberikan kelebihan dan kekurangannya lalu model akan memberikan saran ia akan cocok masuk di jurusan apa
 
 
+Jangan Lupa normalisasi untuk bahasa bahasa singkatan di jurusan

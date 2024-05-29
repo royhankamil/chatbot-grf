@@ -690,7 +690,37 @@
             "Dengan senang hati!"
          ],
          "context_set": ""
+      },
+      {
+         "intents": [
+            {
+               "tag": "pelajaran_rpl",
+               "patterns": [
+                  "Di RPL belajar apa?",
+                  "Rekayasa Perangkat Lunak belajar apa?",
+                  "Apa yang di pelajari di Rekayasa Perangkat Lunak?",
+                  "Materi apa yang di ajari di Rekayasa Perangkat Lunak",
+                  "Apa yang dipelajari di Rekayasa Perangkat Lunak?",
+                  "Materi di jurusan Rekayasa Perangkat Lunak?",
+                  "Apa saja yang diajarkan di Rekayasa Perangkat Lunak?",
+                  "Pembelajaran di Rekayasa Perangkat Lunak?",
+                  "Rekayasa Perangkat Lunak mengajarkan apa?",
+                  "Apa yang dipelajari dalam Rekayasa Perangkat Lunak?",
+                  "Kompetensi di Rekayasa Perangkat Lunak?",
+                  "Keterampilan di Rekayasa Perangkat Lunak?"
+               ],
+               "responses": [
+                  "Program keahlian yang mempersiapkan siswa menjadi tenaga terampil di bidang pemrograman software. Siswa dibekali kemampuan dasar instalasi hardware dan software komputer, penguasaan bahasa pemrograman (C++, Java, Python, JavaScript, PHP, dsb), dan pengolahan database (Microsoft Access, MySQL, dsb).",
+                  "Di jurusan Rekayasa Perangkat Lunak (RPL), siswa belajar menjadi tenaga terampil di bidang pemrograman software. Mereka akan mempelajari instalasi hardware dan software komputer, berbagai bahasa pemrograman seperti C++, Java, Python, JavaScript, PHP, dan juga pengolahan database seperti Microsoft Access dan MySQL.",
+                  "Siswa di Rekayasa Perangkat Lunak (RPL) dilatih menjadi tenaga terampil di bidang pemrograman software. Materi yang diajarkan meliputi instalasi hardware dan software komputer, penguasaan bahasa pemrograman seperti C++, Java, Python, JavaScript, PHP, serta pengolahan database seperti Microsoft Access dan MySQL.",
+                  "Jurusan Rekayasa Perangkat Lunak (RPL) mempersiapkan siswa menjadi ahli di bidang pemrograman software. Mereka belajar instalasi hardware dan software komputer, bahasa pemrograman (C++, Java, Python, JavaScript, PHP), dan pengolahan database (Microsoft Access, MySQL).",
+                  "Di Rekayasa Perangkat Lunak (RPL), siswa dilatih menjadi tenaga terampil di bidang pemrograman software. Mereka akan belajar dasar-dasar instalasi hardware dan software komputer, menguasai bahasa pemrograman seperti C++, Java, Python, JavaScript, PHP, serta pengolahan database seperti Microsoft Access dan MySQL."
+               ],
+               "context_set": ""
+            }
+         ]
       }
+      
     ]
  }
  
