@@ -719,8 +719,122 @@
                "context_set": ""
             }
          ]
-      }
-      
+      },
+      {
+         "intents": [
+            {
+               "tag": "apa_itu_rpl",
+               "patterns": [
+                  "Apa itu Rekayasa Perangkat Lunak?",
+                  "Apa yang dimaksud dengan RPL?",
+                  "Bisa jelaskan tentang Rekayasa Perangkat Lunak?",
+                  "Apa yang dipelajari di jurusan Rekayasa Perangkat Lunak?",
+                  "Apa yang dimaksud dengan jurusan RPL?",
+                  "Apa saja yang dipelajari di RPL?",
+                  "Apa pengertian dari Rekayasa Perangkat Lunak?",
+                  "Apa arti dari RPL?",
+                  "Jurusan Rekayasa Perangkat Lunak itu apa?",
+                  "Apa itu jurusan RPL?"
+               ],
+               "responses": [
+                  "Rekayasa Perangkat Lunak (RPL) atau Software Engineering merupakan sebuah jurusan yang mengupas tentang cara-cara pengembangan perangkat lunak secara menyeluruh. Dari mulai pembuatan, pemeliharaan software, manajemen organisasi hingga manajemen berkualitas perangkat lunak menjadi asupan utama jurusan ini.",
+                  "RPL, atau Rekayasa Perangkat Lunak, adalah bidang studi yang fokus pada pengembangan dan pemeliharaan software. Siswa akan belajar tentang pembuatan software, pemeliharaan, serta manajemen kualitas dan organisasi perangkat lunak.",
+                  "Jurusan Rekayasa Perangkat Lunak (RPL) mempelajari seluruh aspek pengembangan software. Ini termasuk dari awal pembuatan software, pemeliharaan, hingga manajemen organisasi dan kualitas software yang dihasilkan.",
+                  "Di RPL, atau Rekayasa Perangkat Lunak, siswa akan mempelajari cara mengembangkan software dari awal hingga akhir. Ini mencakup pembuatan, pemeliharaan, dan manajemen kualitas serta organisasi perangkat lunak.",
+                  "Rekayasa Perangkat Lunak (RPL) adalah bidang yang mempelajari pengembangan perangkat lunak secara menyeluruh, mulai dari pembuatan hingga pemeliharaan dan manajemen kualitas serta organisasi software.",
+                  "Rekayasa Perangkat Lunak, atau Software Engineering, merupakan jurusan yang berfokus pada pengembangan dan pemeliharaan perangkat lunak. Jurusan ini mencakup proses pembuatan, manajemen, dan peningkatan kualitas software.",
+                  "Di jurusan RPL, Anda akan belajar tentang semua aspek pengembangan perangkat lunak. Ini termasuk bagaimana membuat, memelihara, serta mengelola kualitas dan organisasi software secara efektif.",
+                  "RPL adalah singkatan dari Rekayasa Perangkat Lunak, yang mempelajari teknik pengembangan software dari awal hingga akhir. Jurusan ini menekankan pada pembuatan, pemeliharaan, dan manajemen kualitas perangkat lunak.",
+                  "Jurusan Rekayasa Perangkat Lunak mengajarkan cara mengembangkan software secara lengkap, mulai dari pembuatan, pemeliharaan, hingga manajemen kualitas dan organisasi perangkat lunak.",
+                  "Rekayasa Perangkat Lunak atau Software Engineering adalah jurusan yang mencakup pengembangan perangkat lunak dari awal hingga akhir, termasuk manajemen dan pemeliharaan kualitas software."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "alasan_memilih_rpl",
+               "patterns": [
+                  "Mengapa memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Apa alasan memilih jurusan RPL?",
+                  "Kenapa harus pilih Rekayasa Perangkat Lunak?",
+                  "Apa yang membuat jurusan RPL menarik?",
+                  "Apa keuntungan memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Mengapa RPL menjadi pilihan?",
+                  "Apa yang menarik dari jurusan Rekayasa Perangkat Lunak?",
+                  "Kenapa memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Apa alasan untuk memilih jurusan RPL?",
+                  "Apa saja alasan memilih RPL?",
+                  "Kenapa Rekayasa Perangkat Lunak?",
+                  "Mengapa memilih RPL?"
+               ],
+               "responses": [
+                  "Mengingat berkembangnya zaman yang semakin maju, IT adalah salah satu kebutuhan. Hal inilah yang melatarbelakangi pengambilan jurusan Software Engineering. Alasan paling mendasar yang paling banyak digunakan para mahasiswa atau para calon mahasiswa adalah tren dari dunia Informasi dan Teknologi. Kedepannya, IT adalah bidang yang tidak akan terpisahkan dari manusia. Maka dari itu, juga akan semakin banyak membutuhkan sumber daya manusia yang mumpuni di bidangnya. Software Engineering adalah salah satu batu loncatan untuk memperoleh keahlian IT. Artinya, maraknya peranan Software Engineer dengan terbukanya lapangan kerja dan bisnis baru adalah pendongkrak utama mengapa harus menjadikan RPL sebagai opsi.",
+                  "Jurusan Rekayasa Perangkat Lunak dipilih karena perkembangan teknologi yang semakin pesat menjadikan IT sebagai kebutuhan utama. Tren dunia IT yang semakin berkembang membuat banyak orang tertarik untuk mendalami bidang ini. Di masa depan, IT akan menjadi bidang yang tidak terpisahkan dari kehidupan manusia, sehingga kebutuhan akan tenaga ahli di bidang ini semakin meningkat. Jurusan RPL menjadi salah satu langkah penting untuk mendapatkan keahlian IT yang dibutuhkan. Maraknya peranan Software Engineer serta terbukanya banyak lapangan kerja dan peluang bisnis baru membuat jurusan ini menjadi pilihan yang tepat.",
+                  "Memilih jurusan Rekayasa Perangkat Lunak karena IT merupakan kebutuhan penting di era modern. Tren dalam dunia Informasi dan Teknologi mendorong banyak orang untuk memilih bidang ini, karena di masa depan IT akan sangat dibutuhkan. Ini berarti akan ada banyak peluang kerja dan kebutuhan untuk tenaga ahli di bidang IT. Jurusan RPL menyediakan dasar yang kuat untuk memperoleh keterampilan di bidang ini. Dengan semakin pentingnya peran Software Engineer dan banyaknya peluang kerja serta bisnis baru, RPL menjadi pilihan yang menarik dan strategis.",
+                  "Alasan memilih jurusan Rekayasa Perangkat Lunak adalah karena perkembangan teknologi yang pesat menjadikan IT kebutuhan utama. Tren dunia IT menunjukkan bahwa bidang ini akan terus berkembang dan menjadi semakin penting dalam kehidupan manusia. Oleh karena itu, banyak orang tertarik untuk mendalami bidang ini guna memenuhi kebutuhan akan tenaga ahli IT di masa depan. Jurusan RPL menawarkan kesempatan untuk mendapatkan keahlian di bidang IT, dengan banyaknya peluang kerja dan bisnis baru yang muncul. Ini membuat RPL menjadi pilihan yang sangat relevan dan menjanjikan.",
+                  "Mengambil jurusan Rekayasa Perangkat Lunak karena IT adalah kebutuhan yang semakin mendesak di era modern ini. Dunia Informasi dan Teknologi terus berkembang dan menjadi bagian integral dari kehidupan kita. Tren ini membuat banyak orang memilih untuk belajar IT, karena di masa depan bidang ini akan sangat diperlukan. Jurusan RPL menyediakan landasan yang kuat untuk memperoleh keahlian dalam IT, yang sangat dibutuhkan oleh industri. Dengan banyaknya peluang kerja dan bisnis baru yang terbuka untuk Software Engineer, memilih RPL adalah keputusan yang tepat dan strategis."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "alasan_memilih_rpl",
+               "patterns": [
+                  "Mengapa memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Apa alasan memilih RPL?",
+                  "Kenapa harus memilih jurusan RPL?",
+                  "Mengapa memilih jurusan RPL?",
+                  "Apa manfaat memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Kenapa memilih Rekayasa Perangkat Lunak?",
+                  "Apa yang membuat jurusan RPL menarik?",
+                  "Mengapa saya harus memilih jurusan RPL?",
+                  "Apa kelebihan memilih jurusan Rekayasa Perangkat Lunak?",
+                  "Kenapa memilih RPL sebagai jurusan?"
+               ],
+               "responses": [
+                  "Mengingat berkembangnya jaman yang semakin di depan, IT adalah salah satu kebutuhan. Hal inilah yang melatarbelakangi pengambilan jurusan Software Engineering. Alasan paling mendasar yang paling banyak digunakan para mahasiswa atau siswa adalah tren dari dunia Informasi dan Teknologi. Kedepannya, IT adalah bidang yang tidak akan terpisahkan dari manusia. Maka dari itu, juga akan semakin banyak membutuhkan sumber daya manusia yang mumpuni di bidangnya. Software Engineering adalah salah satu batu loncatan untuk memperoleh keahlian IT. Artinya, maraknya peranan Software Engineer dengan terbukanya lapangan kerja dan bisnis baru adalah pendongkrak utama mengapa harus menjadikan RPL sebagai opsi.",
+                  "Jurusan Rekayasa Perangkat Lunak sangat relevan dengan kebutuhan dunia modern yang semakin bergantung pada teknologi. IT menjadi kebutuhan pokok di era digital ini. Tren di dunia Informasi dan Teknologi menunjukkan bahwa IT akan menjadi bagian integral dari kehidupan manusia. Oleh karena itu, dibutuhkan sumber daya manusia yang ahli di bidang ini. Memilih RPL membuka peluang besar untuk menjadi ahli IT dan memanfaatkan kesempatan kerja yang luas di bidang Software Engineering.",
+                  "Memilih jurusan Rekayasa Perangkat Lunak didasarkan pada kebutuhan akan IT yang terus berkembang. Dunia Informasi dan Teknologi semakin mempengaruhi kehidupan kita sehari-hari. Oleh karena itu, kebutuhan akan profesional IT yang kompeten semakin meningkat. Jurusan RPL menyediakan landasan yang kuat untuk mengembangkan keahlian di bidang IT, sehingga membuka peluang kerja dan bisnis baru yang menjanjikan.",
+                  "Rekayasa Perangkat Lunak merupakan pilihan yang tepat karena IT adalah bidang yang sangat penting dan akan terus berkembang. Dunia IT menjadi semakin penting dalam kehidupan sehari-hari, sehingga kebutuhan akan tenaga ahli di bidang ini juga meningkat. Jurusan RPL membantu siswa memperoleh keahlian yang diperlukan untuk sukses di bidang IT, dengan peluang kerja yang luas dan potensi karir yang cerah di masa depan.",
+                  "Memilih jurusan RPL memberikan keuntungan besar karena IT adalah salah satu sektor yang paling cepat berkembang. Tren di dunia Informasi dan Teknologi menunjukkan bahwa IT akan terus menjadi bagian penting dari kehidupan manusia. Jurusan RPL memberikan dasar yang kuat dalam pengembangan perangkat lunak, yang sangat diperlukan di berbagai industri. Ini menjadikannya pilihan yang strategis untuk masa depan yang cerah dan peluang karir yang luas."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "prospek_kerja_rpl",
+               "patterns": [
+                  "Apa prospek kerja jurusan Rekayasa Perangkat Lunak?",
+                  "Bagaimana prospek karier di jurusan RPL?",
+                  "Apa saja peluang kerja lulusan RPL?",
+                  "Prospek kerja untuk lulusan Rekayasa Perangkat Lunak?",
+                  "Karier apa yang bisa didapat dari jurusan RPL?",
+                  "Apa saja prospek karier dari jurusan Rekayasa Perangkat Lunak?",
+                  "Peluang kerja di jurusan RPL?",
+                  "Prospek pekerjaan untuk lulusan Rekayasa Perangkat Lunak?",
+                  "Apa saja peluang karier untuk lulusan RPL?",
+                  "Bagaimana peluang kerja setelah lulus dari jurusan RPL?"
+               ],
+               "responses": [
+                  "Berkat keahliannya, lulusan jurusan Rekayasa Perangkat Lunak (RPL) memiliki prospek kerja yang sangat luas. Lulusan jurusan ini selalu dicari berbagai perusahaan. Peluang karier jurusan Rekayasa Perangkat Lunak bisa melingkupi, software engineer/programmer, Teknopreneur, mobile computing developer, IT Consultant, System analyst, game developer, software tester dan masih banyak lagi prospek karier lainnya.",
+                  "Lulusan jurusan Rekayasa Perangkat Lunak (RPL) memiliki prospek kerja yang sangat luas. Mereka selalu dicari oleh berbagai perusahaan karena keahliannya. Peluang karier bagi lulusan RPL termasuk software engineer/programmer, teknopreneur, mobile computing developer, IT consultant, system analyst, game developer, software tester, dan masih banyak lagi.",
+                  "Prospek kerja bagi lulusan jurusan Rekayasa Perangkat Lunak (RPL) sangat luas dan menjanjikan. Lulusan RPL selalu dicari oleh berbagai perusahaan. Beberapa peluang karier yang dapat ditekuni antara lain adalah software engineer/programmer, teknopreneur, mobile computing developer, IT consultant, system analyst, game developer, software tester, dan banyak lagi.",
+                  "Lulusan jurusan Rekayasa Perangkat Lunak (RPL) memiliki prospek kerja yang sangat menjanjikan dan beragam. Mereka dapat bekerja sebagai software engineer/programmer, teknopreneur, mobile computing developer, IT consultant, system analyst, game developer, software tester, dan berbagai profesi lainnya di bidang teknologi.",
+                  "Prospek kerja bagi lulusan Rekayasa Perangkat Lunak (RPL) sangat luas dan cerah. Lulusan RPL selalu dicari oleh banyak perusahaan. Mereka bisa berkarier sebagai software engineer/programmer, teknopreneur, mobile computing developer, IT consultant, system analyst, game developer, software tester, dan masih banyak peluang karier lainnya di bidang IT."
+               ],
+               "context_set": ""
+            }
+         ]
+      }                 
     ]
  }
  
