@@ -834,7 +834,88 @@
                "context_set": ""
             }
          ]
-      }                 
+      },
+      {
+         "intents": [
+            {
+               "tag": "jurusan_kuliah_rpl",
+               "patterns": [
+                  "Jurusan kuliah apa yang cocok untuk siswa lulusan Rekayasa Perangkat Lunak?",
+                  "Setelah lulus RPL, jurusan kuliah apa yang sebaiknya diambil?",
+                  "Pilihan jurusan kuliah untuk lulusan RPL?",
+                  "Apa saja jurusan kuliah yang relevan untuk lulusan Rekayasa Perangkat Lunak?",
+                  "Jurusan apa yang sesuai untuk siswa lulusan RPL?",
+                  "Kuliah apa yang cocok setelah lulus dari jurusan RPL?",
+                  "Lulusan RPL sebaiknya mengambil jurusan kuliah apa?",
+                  "Jurusan kuliah yang terkait dengan RPL?",
+                  "Apa jurusan kuliah yang direkomendasikan untuk lulusan RPL?",
+                  "Pilihan studi lanjut untuk lulusan Rekayasa Perangkat Lunak?"
+               ],
+               "responses": [
+                  "Setelah lulus SMK dengan jurusan Rekayasa Perangkat Lunak (RPL), ada beberapa opsi jurusan yang masih berkaitan yaitu: Teknik Informatika, Teknologi Informasi, Sistem Informasi, Manajemen Informatika, Teknik Komputer, dan Rekayasa Perangkat Lunak.",
+                  "Lulusan SMK dari jurusan Rekayasa Perangkat Lunak (RPL) memiliki beberapa opsi jurusan kuliah yang relevan, seperti Teknik Informatika, Teknologi Informasi, Sistem Informasi, Manajemen Informatika, Teknik Komputer, dan Rekayasa Perangkat Lunak.",
+                  "Jurusan kuliah yang cocok untuk siswa lulusan Rekayasa Perangkat Lunak (RPL) termasuk Teknik Informatika, Teknologi Informasi, Sistem Informasi, Manajemen Informatika, Teknik Komputer, dan Rekayasa Perangkat Lunak.",
+                  "Untuk siswa lulusan Rekayasa Perangkat Lunak (RPL), beberapa jurusan kuliah yang relevan adalah Teknik Informatika, Teknologi Informasi, Sistem Informasi, Manajemen Informatika, Teknik Komputer, dan Rekayasa Perangkat Lunak.",
+                  "Setelah menyelesaikan SMK dengan jurusan Rekayasa Perangkat Lunak (RPL), pilihan jurusan kuliah yang sesuai meliputi Teknik Informatika, Teknologi Informasi, Sistem Informasi, Manajemen Informatika, Teknik Komputer, dan Rekayasa Perangkat Lunak."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "proyek_dan_praktek_rpl",
+               "patterns": [
+                  "Apakah ada proyek atau praktek nyata yang dilakukan selama belajar di jurusan RPL?",
+                  "Apakah siswa RPL terlibat dalam proyek nyata?",
+                  "Ada praktik langsung di jurusan RPL?",
+                  "Apa ada proyek yang harus diselesaikan di jurusan RPL?",
+                  "Apakah ada proyek praktis dalam pembelajaran di RPL?",
+                  "Apakah di RPL ada praktek nyata selain teori?",
+                  "Apakah siswa RPL mengerjakan proyek nyata?",
+                  "Proyek apa yang dikerjakan siswa di jurusan RPL?",
+                  "Apakah siswa RPL mengerjakan proyek perangkat lunak?",
+                  "Ada praktek industri di jurusan RPL?"
+               ],
+               "responses": [
+                  "Selain teori yang diajarkan di SMKN 4 Malang, di sini akan dilakukan praktik secara langsung. Untuk jurusan Rekayasa Perangkat Lunak akan membuat proyek membuat produk perangkat lunak seperti web, aplikasi, ataupun game. Ketika semester 2, akan dilibatkan dengan industri yang bisa saja akan melibatkan siswa RPL untuk mengerjakan proyek.",
+                  "Di jurusan Rekayasa Perangkat Lunak (RPL), siswa tidak hanya belajar teori, tetapi juga terlibat dalam praktek nyata. Siswa akan mengerjakan proyek-proyek perangkat lunak seperti web, aplikasi, atau game. Pada semester 2, mereka juga akan bekerja sama dengan industri untuk proyek nyata.",
+                  "SMKN 4 Malang menyediakan praktek nyata selain pembelajaran teori di jurusan Rekayasa Perangkat Lunak (RPL). Siswa akan mengerjakan proyek perangkat lunak, termasuk web, aplikasi, dan game. Pada semester 2, siswa akan terlibat dalam proyek industri yang relevan.",
+                  "Selama belajar di jurusan Rekayasa Perangkat Lunak (RPL) di SMKN 4 Malang, siswa akan melakukan praktek nyata. Mereka akan membuat produk perangkat lunak seperti web, aplikasi, atau game, dan pada semester 2, mereka akan bekerja sama dengan industri untuk mengerjakan proyek.",
+                  "Jurusan Rekayasa Perangkat Lunak (RPL) di SMKN 4 Malang menawarkan pengalaman praktek nyata. Siswa akan mengerjakan proyek seperti web, aplikasi, atau game. Pada semester 2, mereka akan terlibat dengan industri untuk mengerjakan proyek nyata yang melibatkan kemampuan mereka di bidang perangkat lunak."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "bahasa_pemrograman_rpl",
+               "patterns": [
+                  "Apa saja bahasa pemrograman yang akan diajarkan di Rekayasa Perangkat Lunak?",
+                  "Bahasa pemrograman apa yang dipelajari di RPL?",
+                  "Apa bahasa pemrograman yang diajarkan di jurusan RPL?",
+                  "Bahasa pemrograman apa saja yang digunakan di Rekayasa Perangkat Lunak?",
+                  "Apa saja bahasa pemrograman yang dipelajari di RPL?",
+                  "Bahasa pemrograman apa yang akan saya pelajari di jurusan RPL?",
+                  "Di RPL, bahasa pemrograman apa yang diajarkan?",
+                  "Bahasa pemrograman apa yang dipakai di jurusan RPL?",
+                  "Bahasa pemrograman yang dipelajari di jurusan Rekayasa Perangkat Lunak?",
+                  "Apa bahasa pemrograman utama di jurusan RPL?"
+               ],
+               "responses": [
+                  "Siswa akan mempelajari dan mempraktikkan bahasa pemrograman seperti HTML, CSS, PHP, dan JavaScript untuk pengembangan web, C++, Java, dan Python untuk pengembangan aplikasi, serta MS Access dan MySQL untuk pengolahan database.",
+                  "Di jurusan Rekayasa Perangkat Lunak, siswa akan belajar berbagai bahasa pemrograman, termasuk HTML, CSS, PHP, dan JavaScript untuk web development, C++, Java, dan Python untuk aplikasi, serta MS Access dan MySQL untuk database management.",
+                  "Bahasa pemrograman yang akan diajarkan di Rekayasa Perangkat Lunak meliputi HTML, CSS, PHP, dan JavaScript untuk pengembangan web, C++, Java, dan Python untuk pengembangan aplikasi, serta MS Access dan MySQL untuk pengelolaan database.",
+                  "Siswa di jurusan Rekayasa Perangkat Lunak akan mempelajari bahasa pemrograman seperti HTML, CSS, PHP, dan JavaScript untuk pengembangan web, serta C++, Java, dan Python untuk pengembangan aplikasi, dan MS Access dan MySQL untuk pengolahan database.",
+                  "Dalam program Rekayasa Perangkat Lunak, siswa akan mempelajari bahasa pemrograman seperti HTML, CSS, PHP, dan JavaScript untuk web development, serta C++, Java, dan Python untuk aplikasi development, dan MS Access serta MySQL untuk database management."
+               ],
+               "context_set": ""
+            }
+         ]
+      }      
     ]
  }
  
