@@ -969,7 +969,86 @@
                "context_set": ""
             }
          ]
-      }           
+      },
+      {
+         "intents": [
+            {
+               "tag": "tugas_tata_usaha",
+               "patterns": [
+                  "Apa tugas dari tata usaha?",
+                  "Apa saja tugas tata usaha?",
+                  "Apa peran tata usaha di sekolah?",
+                  "Fungsi tata usaha di sekolah apa?",
+                  "Tata usaha di sekolah tugasnya apa saja?",
+                  "Apa yang dilakukan oleh tata usaha?",
+                  "Apa tanggung jawab tata usaha?",
+                  "Apa peran dan tugas tata usaha?",
+                  "Bisa jelaskan tugas tata usaha di sekolah?",
+                  "Apa saja yang dikerjakan oleh tata usaha?"
+               ],
+               "responses": [
+                  "Dalam menjalankan tugasnya, tata usaha menyelenggarakan fungsi sebagai berikut:\n1. Pelayanan informasi kepada warga sekolah yang membutuhkan,\n2. Pelaksanaan urusan keuangan\n3. Koordinasi penyusunan rencana, evaluasi program dan anggaran, serta laporan\n4. Penyusunan organisasi dan tata laksana\n5. Pengelolaan urusan kepegawaian\n6. Penyusunan peraturan sekolah dan\n7. Pelaksanaan urusan ketatausahaan, rumah tangga, perlengkapan, dan pengelolaan barang milik organisasi/instansi.",
+                  "Tata usaha di sekolah memiliki beberapa tugas utama, antara lain:\n1. Memberikan pelayanan informasi kepada warga sekolah yang membutuhkan\n2. Melaksanakan urusan keuangan\n3. Mengkoordinasikan penyusunan rencana, evaluasi program dan anggaran, serta laporan\n4. Menyusun organisasi dan tata laksana\n5. Mengelola urusan kepegawaian\n6. Menyusun peraturan sekolah\n7. Melaksanakan urusan ketatausahaan, rumah tangga, perlengkapan, dan pengelolaan barang milik organisasi/instansi.",
+                  "Fungsi tata usaha di sekolah mencakup:\n1. Pelayanan informasi kepada warga sekolah\n2. Pelaksanaan urusan keuangan\n3. Koordinasi penyusunan rencana, evaluasi program, anggaran, dan laporan\n4. Penyusunan organisasi dan tata laksana\n5. Pengelolaan urusan kepegawaian\n6. Penyusunan peraturan sekolah\n7. Pelaksanaan urusan ketatausahaan, rumah tangga, perlengkapan, dan pengelolaan barang milik organisasi/instansi.",
+                  "Tugas utama tata usaha di sekolah meliputi:\n1. Pelayanan informasi kepada warga sekolah\n2. Pelaksanaan urusan keuangan\n3. Koordinasi penyusunan rencana, evaluasi program dan anggaran, serta laporan\n4. Penyusunan organisasi dan tata laksana\n5. Pengelolaan urusan kepegawaian\n6. Penyusunan peraturan sekolah\n7. Pelaksanaan urusan ketatausahaan, rumah tangga, perlengkapan, dan pengelolaan barang milik organisasi/instansi.",
+                  "Berikut adalah tugas-tugas tata usaha di sekolah:\n1. Pelayanan informasi kepada warga sekolah yang membutuhkan\n2. Pelaksanaan urusan keuangan\n3. Koordinasi penyusunan rencana, evaluasi program dan anggaran, serta laporan\n4. Penyusunan organisasi dan tata laksana\n5. Pengelolaan urusan kepegawaian\n6. Penyusunan peraturan sekolah\n7. Pelaksanaan urusan ketatausahaan, rumah tangga, perlengkapan, dan pengelolaan barang milik organisasi/instansi."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "kepala_tata_usaha",
+               "patterns": [
+                  "Siapa kepala urusan Tata Usaha?",
+                  "Siapa yang menjadi kepala Tata Usaha?",
+                  "Siapa yang memimpin Tata Usaha?",
+                  "Siapa kepala bagian Tata Usaha?",
+                  "Siapa kepala manajemen Tata Usaha?",
+                  "Kepala urusan Tata Usaha itu siapa?",
+                  "Siapa yang bertanggung jawab di Tata Usaha?",
+                  "Siapa yang mengurus bagian Tata Usaha?",
+                  "Siapa yang menjabat sebagai kepala Tata Usaha?",
+                  "Siapa yang memegang posisi kepala Tata Usaha?"
+               ],
+               "responses": [
+                  "Kepala urusan manajemen tata usaha adalah Agus Purnomo, M.Pd.",
+                  "Agus Purnomo, M.Pd adalah kepala urusan manajemen tata usaha.",
+                  "Bagian Tata Usaha dipimpin oleh Agus Purnomo, M.Pd.",
+                  "Agus Purnomo, M.Pd adalah kepala bagian Tata Usaha.",
+                  "Kepala Tata Usaha saat ini adalah Agus Purnomo, M.Pd.",
+                  "Tata Usaha dikepalai oleh Agus Purnomo, M.Pd.",
+                  "Agus Purnomo, M.Pd bertanggung jawab sebagai kepala urusan Tata Usaha.",
+                  "Posisi kepala Tata Usaha dijabat oleh Agus Purnomo, M.Pd.",
+                  "Yang memimpin Tata Usaha adalah Agus Purnomo, M.Pd.",
+                  "Agus Purnomo, M.Pd menjabat sebagai kepala Tata Usaha."
+               ],
+               "context_set": ""
+            }
+         ]
+      },
+      {
+         "intents": [
+            {
+               "tag": "bagian_tata_usaha",
+               "patterns": [
+                  "Apa yang dikerjakan di bagian tata usaha?",
+                  "Apa peran tata usaha di sekolah?",
+                  "apa tanggung jawab yang dikerjakan tata usaha",
+                  "apa fungsi bagian tata usaha di smkn 4 malang",
+                  "apa itu tata usaha?",
+                  "tata usaha"
+               ],
+               "responses": [
+                  "Bagian tata usaha sekolah adalah kegiatan administrasi pendidikan yang mengelola pencatatan, pengumpulan, penyimpanan data, dan dokumen yang dapat dipergunakan untuk membantu pimpinan dalam pengambilan keputusan, urusan surat menyurat serta laporan mengenai kegiatan seluruh warga SMK Negeri 4 Malang."
+               ],
+               "context_set": ""
+            }
+         ]
+      }
+                 
     ]
  }
  
